@@ -4,7 +4,7 @@
 
 An [OpenMRS Microfrontend](https://wiki.openmrs.org/display/projects/Frontend+-+SPA+and+Microfrontends).
 
-## How do I use it??
+## How do I use it?
 
 openmrs-esm-login is registered as a
 [core application](https://github.com/openmrs/openmrs-esm-root-config/blob/master/src/single-spa-applications/core-applications.js)
