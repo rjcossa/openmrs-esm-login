@@ -2,7 +2,7 @@
 
 # Badges
 
-![Badges](badges/badge-branches.svg)
+![Branches](badges/badge-branches.svg) ![Functions](badges/badge-functions.svg) ![Lines](badges/badge-lines.svg) ![Statements](badges/badge-statements.svg)
 
 # OHRI ESM
 
