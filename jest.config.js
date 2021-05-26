@@ -1,5 +1,19 @@
 module.exports = {
   coverageReporters: ['json-summary'],
+  collectCoverage: true,
+  collectCoverageFrom: ['./src/hts/**'],
+  /*"coverageThreshold": {
+    "global": {
+      "branches": 50,
+      "functions": 50,
+      "lines": 50,
+      "statements": 50
+    },
+    "./src/": {
+      "branches": 40,
+      "statements": 40
+    }
+  },*/
   transform: {
     '^.+\\.tsx?$': 'babel-jest',
   },
