@@ -1,4 +1,5 @@
 module.exports = {
+  coverageReporters: ['json-summary'],
   transform: {
     '^.+\\.tsx?$': 'babel-jest',
   },
