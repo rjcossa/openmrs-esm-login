@@ -1,7 +1,7 @@
 module.exports = {
   coverageReporters: ['json-summary'],
   collectCoverage: true,
-  collectCoverageFrom: ['./src/hts/**', './srcs/components/**'],
+  collectCoverageFrom: ['./src/hts/**', './src/components/**'],
   /*"coverageThreshold": {
     "global": {
       "branches": 50,
