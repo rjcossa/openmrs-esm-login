@@ -18,7 +18,7 @@
     "prepublishOnly": "npm run build",
     "test": "jest --passWithNoTests",
     "test:coverage": "npm test -- --coverage",
-    "test:badges": "npm run test:coverage  && jest-coverage-badges",
+    "test:badges": "npm run test:coverage  && jest-coverage-badges --output './badges'",
     "coverage": "npm test -- --coverage"
   },
   "browserslist": [
