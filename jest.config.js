@@ -1,7 +1,8 @@
 module.exports = {
-  coverageReporters: ['json-summary'],
+  coverageReporters: ['json-summary', 'lcov'],
   collectCoverage: true,
-  collectCoverageFrom: ['./src/hts/**', './src/components/**'],
+  collectCoverageFrom: ['./src/components/**', '!./src/components/**/*.snap'],
+  //collectCoverageFrom: ['./src/components/empty-state/**'],
   /*"coverageThreshold": {
     "global": {
       "branches": 50,
